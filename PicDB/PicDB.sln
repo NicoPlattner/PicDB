@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.28307.489
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PicDB", "PicDB\PicDB.csproj", "{892B8CFB-6577-4F8A-B2CA-3748C50737E7}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PicDB_UnitTests", "PicDB_UnitTests\PicDB_UnitTests.csproj", "{96698174-FDAE-42B6-8CF9-24A0DD9F668A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{892B8CFB-6577-4F8A-B2CA-3748C50737E7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{892B8CFB-6577-4F8A-B2CA-3748C50737E7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{892B8CFB-6577-4F8A-B2CA-3748C50737E7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{96698174-FDAE-42B6-8CF9-24A0DD9F668A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{96698174-FDAE-42B6-8CF9-24A0DD9F668A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{96698174-FDAE-42B6-8CF9-24A0DD9F668A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{96698174-FDAE-42B6-8CF9-24A0DD9F668A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

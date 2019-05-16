@@ -55,6 +55,9 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="ImgScrollbar.xaml.cs">
+      <DependentUpon>ImgScrollbar.xaml</DependentUpon>
+    </Compile>
     <Page Include="MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
@@ -63,10 +66,15 @@
       <DependentUpon>App.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="Class1.cs" />
     <Compile Include="MainWindow.xaml.cs">
       <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
+    <Page Include="ImgScrollbar.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs">
@@ -93,6 +101,20 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <Resource Include="Resources\IMG-20181107-WA0124.jpg" />
+    <Resource Include="Resources\IMG-20181209-WA0017.jpg" />
+    <Resource Include="Resources\IMG_20180824_203745.jpg" />
+    <Resource Include="Resources\IMG_20180827_150306.jpg" />
+    <Resource Include="Resources\IMG_20180827_150338.jpg" />
+    <Resource Include="Resources\IMG_20180912_135708.jpg" />
+    <Resource Include="Resources\IMG_20190121_213909.jpg" />
+    <Resource Include="Resources\IMG_20190121_214442.jpg" />
+    <Resource Include="Resources\IMG_20190121_214447.jpg" />
+    <Resource Include="Resources\IMG_20190121_214643.jpg" />
+    <Resource Include="Resources\IMG_20190121_214713.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
